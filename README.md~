@@ -1,0 +1,5 @@
+Compile:
+make distclean
+make sun8iw17p1_config
+make -j4 #If the computer configuration is insufficient, such as using a notebook, it is recommended not to use the "-j32" parameter
+After compiling alone, go back to the lichee directory to execute ./build.sh and then ./build.sh pack, and the updated uboot will be compiled into a new package.
